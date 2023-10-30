@@ -1,4 +1,4 @@
-import { LibroValidador } from './libros.model';
+import { pool } from './database.js';
 
 class LibrosController {
   async getAll(req, res) {
